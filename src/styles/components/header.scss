@@ -1,0 +1,73 @@
+#header {
+  @include centerer;
+  width: 100%;
+  font-size: 3rem;
+  padding-top: 15px;
+  color: darkgrey;
+
+  .nav-item {
+    position: relative;
+
+    i {
+      opacity: .3;
+      position: relative;
+      transition: .6s ease-in opacity;
+    }
+
+    a {
+      position: absolute;
+      color: darkgrey;
+      top: 0;
+      opacity: 0;
+      transition: .3s ease-in opacity;
+      font-family: "Nicholsol Regular", sans-serif;
+      font-weight: 900;
+      font-size: 2.5rem;
+      letter-spacing: 0;
+      text-shadow: -1px 0 darkgrey, 0 1px darkgrey, 1px 0 darkgrey, 0 -1px darkgrey;
+    }
+
+    a::after {
+      @include normalize;
+      display: inline-block;
+      height: 300vh;
+      width: 50vw;
+      content: "";
+    }
+  }
+
+  .nav-item:hover {
+    a {
+      opacity: .55;
+    }
+
+    i {
+      opacity: 1;
+    }
+  }
+
+  #info {
+    i {
+      margin-right: 10px;
+      margin-left: 25%;
+    }
+
+    a::after {
+      margin-left: -230px;
+    }
+  }
+
+  #skills {
+    text-align: right;
+
+    i {
+      margin-right: 25%;
+    }
+
+    a {
+      float: right;
+      transform: translateX(-100%);
+      padding-right: 15px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bpmkillerbattle-template",
+  "version": "1.0.0",
+  "authors": [
+    "Alexander Zinin <zinin.alexander21@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/alex-tark/bpmkillerbattle-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "*",
+    "milligrid": "^1.1.0"
+  }
+}
