@@ -1,0 +1,34 @@
+#title {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  font-family: sans-serif;
+  font-variant: small-caps;
+
+  .content {
+    @include centerer;
+    color: #ffff00;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    h5 {
+      margin-top: 30px;
+    }
+
+    #title-button {
+      margin-top: 50px;
+
+      a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 10px 50px;
+        border-radius: 4px;
+        font-size: .8em;
+      }
+    }
+  }
+}
