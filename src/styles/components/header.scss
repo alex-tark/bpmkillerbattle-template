@@ -4,4 +4,24 @@
   width: 100%;
   position: fixed;
   z-index: 1;
+  font-family: sans-serif;
+
+  #logo {
+    height: 60px;
+    line-height: 60px;
+    float: left;
+  }
+
+  #menu {
+    float: right;
+    margin-right: 50px;
+
+    a {
+      display: inline-block;
+      text-align: center;
+      height: 60px;
+      line-height: 60px;
+      min-width: 150px;
+    }
+  }
 }
