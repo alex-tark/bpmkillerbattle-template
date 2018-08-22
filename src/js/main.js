@@ -8,4 +8,3 @@
 /*
  * Custom scripts
  */
-//= partials/call.js
